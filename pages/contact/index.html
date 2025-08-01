@@ -1,0 +1,32 @@
+---
+layout: default
+title: Contacto
+permalink: /contact/
+---
+<div class="article-card">
+
+    <div class="text-card">
+        <p>Para interesados pueden contactarme por correo electronico.</p>
+    </div>
+
+    <form action="https://formsubmit.co/74ca3b9d27d9b8a57d8001415fccb4ae" method="POST" class="contact-form">
+        <label>Name <span>(required)</span></label>
+
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="name" required>
+
+        <label for="email">Email <span>(required)</span></label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message <span>(required)</span> </label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <!-- Opcional: evitar spam -->
+        <input type="hidden" name="_captcha" value="false">
+        <!-- Redirección después de enviar -->
+        <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</div>

@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  background: #fdfdfd;
+  color: #333;
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+
+header, footer {
+  text-align: center;
+  margin: 2rem 0;
+}

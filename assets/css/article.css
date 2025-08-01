@@ -1,0 +1,35 @@
+.article-card {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 1rem 2rem 0rem 2rem;
+}
+
+.article-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+}
+
+.text-card {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #c9c8c8;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.text-card strong {
+  font-weight: bolder;
+  color: #d6d6d6;
+  font-style: bolder;
+}
+
+@media (max-width: 600px) {
+  .article-card {
+    padding: 1rem;
+  }
+}
