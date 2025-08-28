@@ -1,13 +1,16 @@
 <!-- _layouts/default.html -->
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <!-- link rel="stylesheet" href="/css/main.css" -->
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+
 
 </head>
+
 <body class="container">
   {% include header.html %}
   <main>
@@ -16,4 +19,5 @@
   {% include footer.html %}
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 </body>
+
 </html>
