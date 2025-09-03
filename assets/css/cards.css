@@ -25,6 +25,9 @@
 
 .card .text-overlay {
   position: absolute;
+  text-align: center;
+  font-weight: bold;
+  left: 0;
   bottom: 0;
   padding: 1rem;
   background: rgba(0, 0, 0, 0.6);

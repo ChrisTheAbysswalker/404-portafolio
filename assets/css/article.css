@@ -28,6 +28,11 @@
   font-style: bolder;
 }
 
+.text-card a {
+  color: #ecebeb;
+  text-decoration: none;
+}
+
 @media (max-width: 600px) {
   .article-card {
     padding: 1rem;
